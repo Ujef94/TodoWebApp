@@ -84,7 +84,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   
   -> Click on Create repository.
    
-3. Add Your Project to GitHub:
+2. Add Your Project to GitHub:
    
  1) Open a Terminal or a Git Bash (CMD/GitBash):
     
