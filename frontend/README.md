@@ -80,18 +80,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    
 2. Add Your Project to GitHub:
  1) Open a Terminal or a Git Bash (CMD/GitBash):
+    
   -> Navigate to the folder containing your project.
       -> cd path/to/your-project
+      
   -> Initialize a Local Git Repository:
       -> git init
+      
   -> Add Files to Staging:
       -> git add .
+      
   -> Commit Your Changes:
       -> git commit -m "Initial commit"
+      
   -> Link Your Local Repository to GitHub: Copy the repository URL from GitHub (e.g., https://github.com/your-username/your-repo.git) and then:
       -> git remote add origin https://github.com/your-username/your-repo.git
+      
   -> Push Your Code to GitHub:
       -> git branch -M main
       -> git push -u origin main
+      
 3. Verify Your Code is on GitHub:
    -> Go to your GitHub repository link to see your uploaded project.
