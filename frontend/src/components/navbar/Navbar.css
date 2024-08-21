@@ -1,0 +1,9 @@
+/* .user-png {
+    width: 30px;
+    height: 30px;
+  } */
+.navbar-brand {
+    color: rgba(240, 0, 0, 0.87);
+    font-size: 25px;
+    font-weight: bold;
+}
