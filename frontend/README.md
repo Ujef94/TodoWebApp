@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## To Upload the MERN Project on GitHUb repository.
+1. Create a Repository on GitHub:
+  -> Go to GitHub and log in.
+  -> Click on the + icon at the top right and select New repository.
+  -> Enter a repository name and optionally a description.
+  -> Choose whether the repository is Public (anyone can see it) or Private (only you and collaborators can see it).
+  -> Initialize this repository with a README if you want to add a README file right away.
+  -> Click on Create repository.
+   
+2. Add Your Project to GitHub:
+ 1) Open a Terminal or a Git Bash (CMD/GitBash):
+  -> Navigate to the folder containing your project.
+      -> cd path/to/your-project
+  -> Initialize a Local Git Repository:
+      -> git init
+  -> Add Files to Staging:
+      -> git add .
+  -> Commit Your Changes:
+      -> git commit -m "Initial commit"
+  -> Link Your Local Repository to GitHub: Copy the repository URL from GitHub (e.g., https://github.com/your-username/your-repo.git) and then:
+      -> git remote add origin https://github.com/your-username/your-repo.git
+  -> Push Your Code to GitHub:
+      -> git branch -M main
+      -> git push -u origin main
+3. Verify Your Code is on GitHub:
+   -> Go to your GitHub repository link to see your uploaded project.
