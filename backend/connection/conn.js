@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const conn = async (req, res) => {
   try {
     await mongoose
-      .connect("Enter Your Connection String")
+      .connect("Enter Your Connection String Here")
       .then(() => {
         console.log("Connected");
       });
